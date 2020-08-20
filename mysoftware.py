@@ -65,6 +65,10 @@ while True:
         else:
             print("Sorry! I won't be able to launch this application.\n-Either You have not downloaded this application\n-Or It doesn't configured in me.\n-And it might be possible that you are not putting the correct name\nI Hope you have a Great Time with Me!")
 
+    elif q and (("windows explorer" in p) or ("file explorer" in p) or ("explorer" in p) or ("Windows Explorer" in p) or ("File Explorer" in p) or ("Explorer" in p)):
+        pyttsx3.speak("Launching Windows Explorer, Please wait for a while")
+        os.system("start explorer")
+    
     elif q and (("adobe" in p) or ("Adobe" in p) or ("adobe acrobat" in p) or ("Adobe Acrobat" in p) or ("acrobat reader" in p) or ("Acrobat Reader" in p) or ("adobe acrobat reader" in p) or ("Adobe Acrobat Reader" in p)):
         pyttsx3.speak("Launching Acrobat Reader, Please wait for a while")
         os.system("start AcroRd32")
