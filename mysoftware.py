@@ -194,5 +194,5 @@ while True:
     
     else:
         print("Sorry! I won't be able to launch this application.\n-Either You have not downloaded this application\n-Or It doesn't configured in me.\n-And it might be possible that you are not putting the correct name\nI Hope you have a Great Time with Me!")
-        t = False
+
 print("Thank You! For using, I hope you have a great time with Me.")
